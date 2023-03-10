@@ -6,7 +6,7 @@ using LoopingTests;
 
 namespace LoopingTests;
 
-[MemoryDiagnoser(false)]
+[MemoryDiagnoser(true)]
 public class Benchmarks
 {
     [Params(100, 1000, 10000)]
